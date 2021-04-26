@@ -1,10 +1,15 @@
 package main
+
 import "fmt"
+
 func main() {
-	x := "hello there 
-	can i help you
-	 no  'ok'
-	  thanks"
+	x := `here is something
+	as 
+	a 
+	raw string
+	literal
+	"you see"
+	another thing`
 	fmt.Println(x)
 
 }
